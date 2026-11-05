@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "py-conjugate-grad"
+version = "1.0.0"
+description = "Conjugate gradient method for sparse linear systems"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Mahmoud ElNemer", email = "sultanelnemer@gmail.com"}]
+keywords = ["python", "conjugate-gradient", "linear-algebra", "numerical", "scientific"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ElNeMeR70/py-conjugate-grad"
+Repository = "https://github.com/ElNeMeR70/py-conjugate-grad"
